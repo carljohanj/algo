@@ -86,7 +86,7 @@ Sourcemappen innehåller:
   [<img src="https://img.youtube.com/vi/wboqZ2dPDtQ/hqdefault.jpg" alt="Comparable interface" width="500"/>](https://www.youtube.com/watch?v=wboqZ2dPDtQ)
 ### Vecka 5:
 - **The Secret Rules of Modern Living Algorithms** (58 min)<br>
-[<img src="/assets/thumbnail_1.png" alt="The Secret Rules of Modern Algorithms" width="500"/>](https://www.youtube.com/watch?v=kiFfp-HAu64)
+[<img src="/assets/thumbnail_1.png" alt="The Secret Rules of Modern Algorithms" width="500"/>](https://www.youtube.com/watch?v=pxRlo1z2TIQ)
 - **Stepping through Recursive Fibonacci** (8 min)<br>
 [<img src="https://img.youtube.com/vi/zg-ddPbzcKM/hqdefault.jpg" alt="Stepping through recursive fibonacci" width="500"/>](https://www.youtube.com/watch?v=zg-ddPbzcKM)
 - **The magic of fibonacci numbers** (6 min)<br>
