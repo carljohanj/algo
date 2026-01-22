@@ -12,7 +12,7 @@
 
 # <a id="kodexempel"></a>Kodexempel
 
-Sourcemappen innehåller:
+Ni hittar dessa i mappen src:
 
 | Filnamn              | Beskrivning                                                                                                                                                                                    |
 |----------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -22,14 +22,17 @@ Sourcemappen innehåller:
 
 Ni hittar dessa i mappen files:
 
-| Filnamn                                 | Beskrivning                                                                              |
-|-----------------------------------------|------------------------------------------------------------------------------------------|
-| **Föreläsning 0: Introduktion**         | Presentationen från kursintroduktionen den 19/1.                                         |
-| **Föreläsning 1: Tidskomplexitet**      | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer. |
-| **Föreläsning 2-3: Arrayer och listor** | Föreläsning från 22/1 där vi pratade om arrayer och listor.                              |
+| Filnamn                   | Beskrivning                                                                                           |
+|---------------------------|-------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**       | Presentationen från kursintroduktionen den 19/1.                                                      |
+| **1: Tidskomplexitet**    | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.              |
+| **2: Listor och arrayer** | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet. |
 
 
 # <a id="andra-filer"></a>Övriga filer
+
+Ni hittar dessa i mappen files:
+
 | Filnamn             | Beskrivning                                                                          |
 |---------------------|--------------------------------------------------------------------------------------|
 | **Lathund_Git.pdf** | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering. |
