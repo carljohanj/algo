@@ -7,10 +7,9 @@ public class MyArrayList
 
     public MyArrayList()
     {
-        data = new int[10];
+        data = new int[10];     //Samma defaultstorlek som Javas inbyggda ArrayList
     }
 
-    //add(int value)
     public void add(int value)
     {
         if (data.length == lastElement) { grow(); }
@@ -18,14 +17,12 @@ public class MyArrayList
         lastElement++;
     }
 
-    //get(int i)
     public int get(int i)
     {
         return data[i];
     }
 
-    //grow()
-    private void grow() //2 O(n) + O(n) + O(1) + O(1) + O(1) = 3 O(n), dvs = O(n)
+    private void grow() //2 O(n) + O(n) + O(1) + O(1) + O(1) = 3 O(n), dvs O(n)
     {
         int[] newData = new int[data.length * 2];   //2 O(n)
 
