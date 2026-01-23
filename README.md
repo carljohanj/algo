@@ -1,4 +1,4 @@
-# Rekursion, minne och abstrakta datatyper
+# Algoritmer & Datastrukturer VT26
 ![Mandelbrotfraktalen](assets/top-image2.jpg)
 
 ## Innehåll
