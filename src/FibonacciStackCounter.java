@@ -10,7 +10,7 @@ import java.util.Scanner;
  * Den genererar även ett simpelt diagram som visar hur det rekursiva anropsträdet ser ut. En webbsida skapas
  * automatiskt för att illustrera resultaten.
  * @author Carl-Johan Johansson
- * @since 2025-01-29
+ * @since 2026-01-26
  * @version 1.0
  */
 public class FibonacciStackCounter

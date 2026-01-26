@@ -1,5 +1,4 @@
 
-
 public class RecursiveFibonacci
 {
     static long counter = 0;
@@ -16,9 +15,9 @@ public class RecursiveFibonacci
     public static long fib(int n)
     {
         counter++;
-
         //Basfall:
         if (n <= 1) { return n; }
+
         return fib(n-1) + fib(n-2);
     }
 }
