@@ -13,11 +13,14 @@
 # <a id="kodexempel"></a>Kodexempel
 Ni hittar dessa i mappen src:
 
-| Filer / Paket             | Beskrivning                                                                                                                                                                                                                                                    |
-|---------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **FibonacciStackCounter** | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer. |
-| **ValueVsReference**      | Ett kort exempel som illustrerar skillnaden mellan att skicka variabler som värde och att skicka dem som referenser (detta sköts automatiskt i Java men det är bra att förstå vad som händer).                                                                 |
-| **MyArrayList**           | Ett exempel på en (väldigt enkel) egenskapad ArrayList som kan lagra integers.                                                                                                                                                                                 |
+| Filer / Paket                 | Beskrivning                                                                                                                                                                                                                                                    |
+|-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **FibonacciStackCounter**     | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer. |
+| **IterativeFibonacci**        | Exempel på dynamisk optimering av en iterativ fibonaccialgoritm.                                                                                                                                                                                               |
+| **MyArrayList**               | Ett exempel på en (väldigt enkel) egenskapad ArrayList som kan lagra integers.                                                                                                                                                                                 |
+| **RecursiveDynamicFibonacci** | Effektivisering av en rekursiv fibonaccialgoritm (så kallad memoisering).                                                                                                                                                                                      |
+| **StackOverflow**             | Vad som händer när vi fortsätter lägga activation frames på callstacken utan något basfall.                                                                                                                                                                    |
+| **ValueVsReference**          | Ett kort exempel som illustrerar skillnaden mellan att skicka variabler som värde och att skicka dem som referenser (detta sköts automatiskt i Java men det är bra att förstå vad som händer).                                                                 |
 
 
 # <a id="presentationer"></a>Föreläsningsslides
@@ -56,6 +59,7 @@ Ni hittar dessa i mappen files:
 - **Gif-animering av binär sökning**: https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-best-case.gif
 - **Varför enhanced for-loopar är bra att använda**: https://www.geeksforgeeks.org/difference-between-for-loop-and-enhanced-for-loop-in-java/
 - **The importance of Naive Solutions**: https://softwaredoug.com/blog/2022/11/14/importance-of-naive-solutions
+- **Uppslagsverk för svenska it-ord**: https://it-ord.computersweden.se/
 
 ## <a id="videor"></a>Videoklipp
 

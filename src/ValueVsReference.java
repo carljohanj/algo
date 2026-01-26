@@ -4,38 +4,27 @@ public class ValueVsReference
 {
     public static void main(String[] args)
     {
-        int number = 100;
-        System.out.println("Värdet i variabeln number innan den skickats som värde till passByValue(): " + number);
-        passByValue(number);
-        System.out.println("Värdet i variabeln number efter den skickats som värde till passByValue(): " + number +"\n");
+        int myNumber = 10;
+        passByValue(myNumber);
+        System.out.println("Integern myNumber i main har värdet " + myNumber);
 
-        int[] array = {50, 2, 35, 4, 6, 1, 99, 45, 53, 97, 5, 8};
-        System.out.println("Ordningen på arrayen innan den skickats som referens till passByReference(): ");
-        for (int value : array)
-        {
-            System.out.print(value + ", ");
-        }
-
+        int[] array = { 198, 2, 5, 205, 145, 34, 20, 10 };
         passByReference(array);
 
-        System.out.println("\nOrdningen på arrayen efter den skickats som referens till passByReference(): ");
         for (int value : array)
         {
-            System.out.print(value + ", ");
+            System.out.println(value);
         }
     }
 
-    //Metoden ändrar inte värdet på number i main() eftersom värdet (100) i number kopieras och skickas hit
-    public static void passByValue(int number)
+    public static void passByValue(int n)
     {
-        number = number * 2;
-        System.out.println("Den lokala variabeln number i metoden passByValue() har nu värdet " + number);
+        n = n * 2;
+        System.out.println("Den lokala kopian av myNumber har värdet " + n);
     }
 
-    //Metoden sorterar arrayen i main() utan att behöva returnera någonting igen eftersom den tar in en referens
     public static void passByReference(int[] array)
     {
         Arrays.sort(array);
     }
-
 }
