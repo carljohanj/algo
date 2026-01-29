@@ -7,6 +7,9 @@ public class StackOverFlow
         callingMyself();
     }
 
+    //Rekursiv metod utan något basfall som gör att den stoppar:
+    //Den kommer att fortsätta lägga activation frames på stacken tills
+    //den flödar over och vi får ett Stack Overflow.
     public static void callingMyself()
     {
         counter++;

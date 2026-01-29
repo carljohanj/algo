@@ -1,5 +1,8 @@
 package BinarySearch;
 
+/**
+ * En rekursiv implementation av en binär sökfunktion.
+ */
 public class BinarySearch
 {
     public static int binarySearch(int[] collection, int targetValue, int left, int right)
