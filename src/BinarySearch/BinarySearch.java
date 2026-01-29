@@ -2,9 +2,7 @@ package BinarySearch;
 
 public class BinarySearch
 {
-
-    public static int binarySearch(int[] collection, int targetValue,
-                                   int left, int right)
+    public static int binarySearch(int[] collection, int targetValue, int left, int right)
     {
         // 1. Basfall: när ska den stoppa om den inte hittar värdet i den här samlingen?
         if (left > right)

@@ -15,6 +15,7 @@ Ni hittar dessa i mappen src:
 
 | Filer / Paket                 | Beskrivning                                                                                                                                                                                                                                                    |
 |-------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BinarySearch**              | En binär sökalgoritm med rekursiv implementation. Binär sökning är ett exempel på en divide-and-conquer-algoritm som halverar problemet för varje steg.                                                                                                        |
 | **FibonacciStackCounter**     | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer. |
 | **IterativeFibonacci**        | Exempel på dynamisk optimering av en iterativ fibonaccialgoritm.                                                                                                                                                                                               |
 | **MyArrayList**               | Ett exempel på en (väldigt enkel) egenskapad ArrayList som kan lagra integers.                                                                                                                                                                                 |
@@ -28,12 +29,13 @@ Ni hittar dessa i mappen src:
 
 Ni hittar dessa i mappen files:
 
-| Filer                                 | Beskrivning                                                                                                            |
-|---------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| **0: Introduktion**                   | Presentationen från kursintroduktionen den 19/1.                                                                       |
-| **1: Tidskomplexitet**                | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                               |
-| **2: Listor och arrayer**             | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                  |
-| **3: Rekursion, callstack och minne** | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering. |
+| Filer                                   | Beskrivning                                                                                                                               |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**                     | Presentationen från kursintroduktionen den 19/1.                                                                                          |
+| **1: Tidskomplexitet**                  | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                  |
+| **2: Listor och arrayer**               | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                     |
+| **3: Rekursion, callstack och minne**   | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                    |
+| **4: Abstrakta datatyper och generics** | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor. |
 
 
 # <a id="andra-filer"></a>Övriga filer
@@ -56,6 +58,7 @@ Ni hittar dessa i mappen files:
 # <a id="resurser"></a>Resurser
 
 ## <a id="links"></a>Länkar
+- **Bra sammanfattning av Generics**: https://docs.oracle.com/javase/tutorial/java/generics/index.html
 - **Abstrakta datatyper**: https://www.geeksforgeeks.org/abstract-data-types/
 - **Gif-animering av binär sökning**: https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-best-case.gif
 - **Varför enhanced for-loopar är bra att använda**: https://www.geeksforgeeks.org/difference-between-for-loop-and-enhanced-for-loop-in-java/
@@ -65,6 +68,8 @@ Ni hittar dessa i mappen files:
 ## <a id="videor"></a>Videoklipp
 
 ### Vecka 5: Rekursion och minne
+- **Generics in Java** (17 min)<br>
+  [<img src="https://img.youtube.com/vi/K1iu1kXkVoA/hqdefault.jpg" alt="Generics in Java" width="500"/>](https://www.youtube.com/watch?v=K1iu1kXkVoA)
 - **Stepping through Recursive Fibonacci** (8 min)<br>
 [<img src="https://img.youtube.com/vi/zg-ddPbzcKM/hqdefault.jpg" alt="Stepping through recursive fibonacci" width="500"/>](https://www.youtube.com/watch?v=zg-ddPbzcKM)
 - **David Brailsford om loopar och rekursion** (12 min)<br>
