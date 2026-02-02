@@ -33,13 +33,14 @@ Ni hittar dessa i mappen src:
 
 Ni hittar dessa i mappen files:
 
-| Filer                                   | Beskrivning                                                                                                                               |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|
-| **0: Introduktion**                     | Presentationen från kursintroduktionen den 19/1.                                                                                          |
-| **1: Tidskomplexitet**                  | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                  |
-| **2: Listor och arrayer**               | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                     |
-| **3: Rekursion, callstack och minne**   | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                    |
-| **4: Abstrakta datatyper och generics** | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor. |
+| Filer                                   | Beskrivning                                                                                                                                     |
+|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**                     | Presentationen från kursintroduktionen den 19/1.                                                                                                |
+| **1: Tidskomplexitet**                  | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                        |
+| **2: Listor och arrayer**               | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                           |
+| **3: Rekursion, callstack och minne**   | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                          |
+| **4: Abstrakta datatyper och generics** | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.       |
+| **5: Maps och sortering**               | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer. |
 
 
 # <a id="andra-filer"></a>Övriga filer
@@ -62,6 +63,7 @@ Ni hittar dessa i mappen files:
 # <a id="resurser"></a>Resurser
 
 ## <a id="links"></a>Länkar
+- **En bra breakdown av TreeMap**: https://ioflood.com/blog/java-treemap/
 - **Bra sammanfattning av Generics**: https://docs.oracle.com/javase/tutorial/java/generics/index.html
 - **Abstrakta datatyper**: https://www.geeksforgeeks.org/abstract-data-types/
 - **Gif-animering av binär sökning**: https://www.mathwarehouse.com/programming/images/binary-vs-linear-search/linear-vs-binary-search-best-case.gif

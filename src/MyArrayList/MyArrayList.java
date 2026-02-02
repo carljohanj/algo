@@ -1,6 +1,5 @@
 package MyArrayList;
 
-
 public class MyArrayList
 {
     private int[] data;
