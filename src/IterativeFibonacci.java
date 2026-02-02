@@ -1,3 +1,11 @@
+/**
+ * Ett exempel på en iterativ fibonaccialgoritm. Tekniken kallas för tabulering
+ * och är ett exempel på dynamisk programmering. I stället för att spara be-
+ * räkningarna i en array (som i fallet med RecursiveDynamicFibonacci) använder
+ * vi tre variabler som vi ställer om för att kunna beräkna nästa tal.
+ *
+ * Den här algoritmen har tidskomplexiteten O(n) i stället för O(2^n).
+ */
 public class IterativeFibonacci
 {
     static int counter = 1;

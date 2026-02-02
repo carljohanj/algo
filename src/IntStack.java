@@ -1,4 +1,8 @@
-
+/**
+ * En väldigt enkel stack som implementeras med hjälp av en array.
+ * Stacken kan endast hantera integers, men skulle lätt kunna göras
+ * generisk för att hantera alla typer av data.
+ */
 public class IntStack
 {
     private int[] data;

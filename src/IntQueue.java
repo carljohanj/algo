@@ -1,5 +1,12 @@
 import LinkedList.Node;
 
+/**
+ * En kö som kan lagra integers. Kön är byggd med hjälp av den rekursiva
+ * Node-klass som vi skapade på föreläsningen för att illustrera hur
+ * noder ofta används som byggstenar för mer avancerade datastrukturer.
+ *
+ * Kön har O(1) i tidskomplexitet för både insättning och uthämtning.
+ */
 public class IntQueue
 {
     private Node head;

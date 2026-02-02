@@ -1,5 +1,16 @@
 import java.util.Arrays;
 
+/**
+ * Ett exempel på hur skicka som värde och skicka som referens fungerar i Java.
+ * Primitiva typer skickas alltid som värde (dvs deras värden kopieras). När vi
+ * skickar en int till en metod är det inte samma int som vi ändrar värde för inuti
+ * metoden utan en kopia.
+ *
+ * När vi däremot skickar en referens så pekar den mot samma datasamling som den
+ * ursprungliga referensen. Det är därför vi inte behöver returnera en sorterad
+ * array från passByReference(): sorteringen sker redan PÅ den ursprungliga arrayen
+ * som finns någonstans på heapen.
+ */
 public class ValueVsReference
 {
     public static void main(String[] args)

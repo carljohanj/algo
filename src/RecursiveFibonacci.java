@@ -1,4 +1,9 @@
-
+/**
+ * Ett exempel på en rekursiv fibonaccoalgoritm, som är löjligt beräkningstung.
+ * Algoritmen får tidskomplexiteten O(2^n) eftersom varje anrop resulterar i två
+ * nya anrop, osv, tills basfallet är nått. Vi kallar detta för exponentiell tids-
+ * komplexitet.
+ */
 public class RecursiveFibonacci
 {
     static long counter = 0;

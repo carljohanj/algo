@@ -1,5 +1,13 @@
 package MyArrayList;
 
+/**
+ * En simpel ArrayList med väldigt grundläggande funktionalitet. Vi sparar datan i
+ * en underliggande int-array. Vid varje insättning kontrollerar vi om arrayen är
+ * full, och i så fall skapar vi en dubbelt så stor array, kopierar över alla värden
+ * i den, och pekar data mot den nya arrayen i stället.
+ *
+ * get() och add() har O(1) i tidskomplexitet medan grow() har O(n).
+ */
 public class MyArrayList
 {
     private int[] data;

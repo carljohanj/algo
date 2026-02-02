@@ -5,10 +5,10 @@ import java.util.List;
 import java.util.Scanner;
 
 /**
- * Ett program som förklarar hur rekursiva fibonaccianrop skapas och hur de returnerar sina värden. Den skriver ut
+ * Ett program som förklarar hur rekursiva fibonaccianrop skapas och hur de returnerar sina värden. Det skriver ut
  * allting som händer i programmet och loggar hur stacken förändras för varje gång vi pushar eller poppar någonting.
- * Den genererar även ett simpelt diagram som visar hur det rekursiva anropsträdet ser ut. En webbsida skapas
- * automatiskt för att illustrera resultaten.
+ * Det genererar även ett simpelt diagram som visar hur det rekursiva anropsträdet ser ut. En webbsida skapas
+ * automatiskt för att illustrera resultaten. (Skulle sidan inte öppnas automatiskt finns den i mappen output_tmp_files.)
  * @author Carl-Johan Johansson
  * @since 2026-01-26
  * @version 1.0
