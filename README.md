@@ -19,6 +19,7 @@ Ni hittar dessa i mappen src:
 | **LinkedList**                | En väldigt enkel implementation av en enkellänkad lista som använder sig av en rekursiv Node för att lägga in integers i en kedjeliknande struktur.                                                                                                                                             |
 | **LinkedListGeneric**         | Samma lista, fast där både listan och Noden använder sig av generiska typer i stället för integers.                                                                                                                                                                                             |
 | **FibonacciStackCounter**     | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer.                                  |
+| **GarbageCollection**         | Ett exempel som loggar hur garbage collection fungerar i Java när stora minnesresurser deallokeras.                                                                                                                                                                                             |
 | **IntQueue**                  | En implementation av en kö som använder sig av samma Noder som den enkellänkade listan.                                                                                                                                                                                                         |
 | **IntStack**                  | En stack som använder sig av en underliggande array för att spara värden.                                                                                                                                                                                                                       |
 | **IterativeFibonacci**        | Exempel på dynamisk optimering av en iterativ fibonaccialgoritm.                                                                                                                                                                                                                                |
@@ -35,24 +36,27 @@ Ni hittar dessa i mappen src:
 
 Ni hittar dessa i mappen files:
 
-| Filer                                   | Beskrivning                                                                                                                                     |
-|-----------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0: Introduktion**                     | Presentationen från kursintroduktionen den 19/1.                                                                                                |
-| **1: Tidskomplexitet**                  | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                        |
-| **2: Listor och arrayer**               | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                           |
-| **3: Rekursion, callstack och minne**   | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                          |
-| **4: Abstrakta datatyper och generics** | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.       |
-| **5: Maps och sortering**               | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer. |
+| Filer                                    | Beskrivning                                                                                                                                                                    |
+|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**                      | Presentationen från kursintroduktionen den 19/1.                                                                                                                               |
+| **1: Tidskomplexitet**                   | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                                                       |
+| **2: Listor och arrayer**                | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                                                          |
+| **3: Rekursion, callstack och minne**    | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                                                         |
+| **4: Abstrakta datatyper och generics**  | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.                                      |
+| **5: Maps och sortering**                | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                |
+| **6: Comparator och garbage collection** | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.  |
+
 
 
 # <a id="andra-filer"></a>Övriga filer
 
 Ni hittar dessa i mappen files:
 
-| Filer                            | Beskrivning                                                                                                           |
-|----------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Lathund_Git.pdf**              | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                  |
-| **Recursive_fibonacci_tree.pdf** | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning. |
+| Filer                                 | Beskrivning                                                                                                           |
+|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Fragor_och_svar_forelasning_3.pdf** | Lite övningsfrågor om rekursion, callstack och minne. Svar är inkluderade.                                            |
+| **Lathund_Git.pdf**                   | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                  |
+| **Recursive_fibonacci_tree.pdf**      | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning. |
 
 # <a id="verktyg"></a>IntelliJ-plugins
 - **PDF Viewer.** https://plugins.jetbrains.com/plugin/14494-pdf-viewer
@@ -65,6 +69,7 @@ Ni hittar dessa i mappen files:
 # <a id="resurser"></a>Resurser
 
 ## <a id="links"></a>Länkar
+- **Grokking Algorithms (bra alternativ till kursboken)**: https://learning.oreilly.com/library/view/grokking-algorithms-second/9781633438538/
 - **En bra breakdown av TreeMap**: https://ioflood.com/blog/java-treemap/
 - **Bra sammanfattning av Generics**: https://docs.oracle.com/javase/tutorial/java/generics/index.html
 - **Abstrakta datatyper**: https://www.geeksforgeeks.org/abstract-data-types/
@@ -74,6 +79,18 @@ Ni hittar dessa i mappen files:
 - **Uppslagsverk för svenska it-ord**: https://it-ord.computersweden.se/
 
 ## <a id="videor"></a>Videoklipp
+
+### Vecka 6: Maps och sortering
+- **Merge Sort** (3 min)<br>
+  [<img src="https://img.youtube.com/vi/4VqmGXwpLqc/hqdefault.jpg" alt="Merge Sort" width="500"/>](https://www.youtube.com/watch?v=4VqmGXwpLqc)
+- **Quick Sort** (4 min)<br>
+  [<img src="https://img.youtube.com/vi/Hoixgm4-P4M/hqdefault.jpg" alt="Quick Sort" width="500"/>](https://www.youtube.com/watch?v=Hoixgm4-P4M)
+- **Selection sort** (3 min)<br>
+  [<img src="https://img.youtube.com/vi/g-PGLbMth_g/hqdefault.jpg" alt="Selection Sort" width="500"/>](https://www.youtube.com/watch?v=g-PGLbMth_g)
+- **Insertion sort** (2 min)<br>
+  [<img src="https://img.youtube.com/vi/JU767SDMDvA/hqdefault.jpg" alt="Insertion Sort" width="500"/>](https://www.youtube.com/watch?v=JU767SDMDvA)
+- **Bubble sort** (2 min)<br>
+    [<img src="https://img.youtube.com/vi/xli_FI7CuzA/hqdefault.jpg" alt="Bubble Sort" width="500"/>](https://www.youtube.com/watch?v=xli_FI7CuzA)
 
 ### Vecka 5: Rekursion och minne
 - **Generics in Java** (17 min)<br>
