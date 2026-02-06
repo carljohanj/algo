@@ -9,16 +9,17 @@ public class Main
     public static void main(String[] args)
     {
         //Comparator med en lista:
-        List<Person> list = new ArrayList<>();
-        list.add(new Person("Alice", 25));
-        list.add(new Person("Buster", 19));
-        list.add(new Person("Andreas", 50));
-        list.add(new Person("Anna", 23));
-        list.add(new Person("Bob", 25));
+        List<Person> personList = new ArrayList<>();
+        personList.add(new Person("Alice", 25));
+        personList.add(new Person("Buster", 19));
+        personList.add(new Person("Andreas", 50));
+        personList.add(new Person("Anna", 32));
+        personList.add(new Person("Anna", 23));
+        personList.add(new Person("Bob", 25));
 
-        list.sort(Comparator.comparing(Person::getAge).thenComparing(Person::getName));
+        personList.sort(Comparator.comparing(Person::getName).thenComparing(Person::getAge));
 
-        for (Person p : list)
+        for (Person p : personList)
         {
             System.out.println(p.getName() + ", " + p.getAge());
         }

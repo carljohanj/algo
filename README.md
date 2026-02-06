@@ -71,6 +71,7 @@ Ni hittar dessa i mappen files:
 # <a id="resurser"></a>Resurser
 
 ## <a id="links"></a>Länkar
+- **Comparable och Comparator - hur vi jämför objekt**: https://medium.com/@bolot.89/comparator-vs-comparable-in-java-understanding-the-key-differences-ee2c8f8f45d9 
 - **Grokking Algorithms (bra alternativ till kursboken)**: https://learning.oreilly.com/library/view/grokking-algorithms-second/9781633438538/
 - **En bra breakdown av TreeMap**: https://ioflood.com/blog/java-treemap/
 - **Bra sammanfattning av Generics**: https://docs.oracle.com/javase/tutorial/java/generics/index.html
@@ -83,6 +84,8 @@ Ni hittar dessa i mappen files:
 ## <a id="videor"></a>Videoklipp
 
 ### Vecka 6: Maps och sortering
+- **Hur man implementerar Comparable i en egen klass** (5 min)<br>
+  [<img src="https://img.youtube.com/vi/wboqZ2dPDtQ/hqdefault.jpg" alt="Comparable interface" width="500"/>](https://www.youtube.com/watch?v=wboqZ2dPDtQ)
 - **Merge Sort** (3 min)<br>
   [<img src="https://img.youtube.com/vi/4VqmGXwpLqc/hqdefault.jpg" alt="Merge Sort" width="500"/>](https://www.youtube.com/watch?v=4VqmGXwpLqc)
 - **Quick Sort** (4 min)<br>
