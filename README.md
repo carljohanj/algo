@@ -13,40 +13,42 @@
 # <a id="kodexempel"></a>Kodexempel
 Ni hittar dessa i mappen src:
 
-| Filer / Paket                 | Beskrivning                                                                                                                                                                                                                                                                                     |
-|-------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **BinarySearch**              | En binär sökalgoritm med rekursiv implementation. Binär sökning är ett exempel på en divide-and-conquer-algoritm som halverar problemet för varje steg.                                                                                                                                         |
-| **ComparableExample**         | Exempel på hur vi kan implementera och använda Comparable i Java för att sortera objekt.                                                                                                                                                                                                        |
-| **ComparatorExample**         | Exempel på hur vi kan använda Comparator i Java för att sortera objekt på flera olika vis utan att behöva skriva egna sorteringsimplementationer. Paketet innehåller också ett exempel på hur man använder metodreferensoperatorn i Java.                                                         |
-| **LinkedList**                | En väldigt enkel implementation av en enkellänkad lista som använder sig av en rekursiv Node för att lägga in integers i en kedjeliknande struktur.                                                                                                                                             |
-| **LinkedListGeneric**         | Samma lista, fast där både listan och Noden använder sig av generiska typer i stället för integers.                                                                                                                                                                                             |
-| **FibonacciStackCounter**     | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer.                                  |
-| **GarbageCollection**         | Ett exempel som loggar hur garbage collection fungerar i Java när stora minnesresurser deallokeras.                                                                                                                                                                                             |
-| **IntQueue**                  | En implementation av en kö som använder sig av samma Noder som den enkellänkade listan.                                                                                                                                                                                                         |
-| **IntStack**                  | En stack som använder sig av en underliggande array för att spara värden.                                                                                                                                                                                                                       |
-| **IterativeFibonacci**        | Exempel på dynamisk optimering av en iterativ fibonaccialgoritm.                                                                                                                                                                                                                                |
-| **MyArrayList**               | Ett exempel på en (väldigt enkel) egenskapad ArrayList som kan lagra integers.                                                                                                                                                                                                                  |
-| **RecursiveDynamicFibonacci** | Effektivisering av en rekursiv fibonaccialgoritm (så kallad memoisering).                                                                                                                                                                                                                       |
-| **RecursiveFibonacci**        | En rekursiv fibonaccialgoritm: varje anrop genererar två nya anrop till sig själv tills de når basfallet.                                                                                                                                                                                       |
-| **SierpinskiTriangle**        | Ett program som ritar upp en rekursiv Sierpinskitriangel (där varje nytt anrop delar in varje triangel i tre mindre trianglar). Poängen med programmet är inte att ni ska förstå koden i den här klassen, utan att få en visuell bild av hur rekursion fungerar. Ctrl+C för att slå på/av färg. |
-| **StackOverflow**             | Vad som händer när vi fortsätter lägga activation frames på callstacken utan något basfall.                                                                                                                                                                                                     |
-| **SubmapExample**             | Ett exempel på hur subMap fungerar i en TreeMap och varför vi bryr oss om tidskomplexiteten O(k).                                                                                                                                                                                               |
-| **ValueVsReference**          | Ett kort exempel som illustrerar skillnaden mellan att skicka variabler som värde och att skicka dem som referenser (detta sköts automatiskt i Java men det är bra att förstå vad som händer).                                                                                                  |
+| Filer / Paket                  | Beskrivning                                                                                                                                                                                                                                                                                     |
+|--------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **BinarySearch**               | En binär sökalgoritm med rekursiv implementation. Binär sökning är ett exempel på en divide-and-conquer-algoritm som halverar problemet för varje steg.                                                                                                                                         |
+| **ComparableExample**          | Exempel på hur vi kan implementera och använda Comparable i Java för att sortera objekt.                                                                                                                                                                                                        |
+| **ComparatorPassedAsArgument** | Ett exempel på hur en Comparator kan sparas i en variabel och sen skickas till en metod. På det här viset kan man t.ex. låta en anropare av ett API berätta hur de vill att data ska sorteras.                                                                                                  |
+| **ComparatorExample**          | Exempel på hur vi kan använda Comparator i Java för att sortera objekt på flera olika vis utan att behöva skriva egna sorteringsimplementationer. Paketet innehåller också ett exempel på hur man använder metodreferensoperatorn i Java.                                                       |
+| **LinkedList**                 | En väldigt enkel implementation av en enkellänkad lista som använder sig av en rekursiv Node för att lägga in integers i en kedjeliknande struktur.                                                                                                                                             |
+| **LinkedListGeneric**          | Samma lista, fast där både listan och Noden använder sig av generiska typer i stället för integers.                                                                                                                                                                                             |
+| **FibonacciStackCounter**      | Ett program som genererar en enkel webbsida som visar hur en rekursiv fibonaccialgoritm pushar metodanrop på callstacken och i vilken ordning de sedan poppas igen. Kör det här programmet med några olika värden för att se hur trädet och callstacken växer.                                  |
+| **GarbageCollection**          | Ett exempel som loggar hur garbage collection fungerar i Java när stora minnesresurser deallokeras.                                                                                                                                                                                             |
+| **IntQueue**                   | En implementation av en kö som använder sig av samma Noder som den enkellänkade listan.                                                                                                                                                                                                         |
+| **IntStack**                   | En stack som använder sig av en underliggande array för att spara värden.                                                                                                                                                                                                                       |
+| **IterativeFibonacci**         | Exempel på dynamisk optimering av en iterativ fibonaccialgoritm.                                                                                                                                                                                                                                |
+| **MyArrayList**                | Ett exempel på en (väldigt enkel) egenskapad ArrayList som kan lagra integers.                                                                                                                                                                                                                  |
+| **RecursiveDynamicFibonacci**  | Effektivisering av en rekursiv fibonaccialgoritm (så kallad memoisering).                                                                                                                                                                                                                       |
+| **RecursiveFibonacci**         | En rekursiv fibonaccialgoritm: varje anrop genererar två nya anrop till sig själv tills de når basfallet.                                                                                                                                                                                       |
+| **SierpinskiTriangle**         | Ett program som ritar upp en rekursiv Sierpinskitriangel (där varje nytt anrop delar in varje triangel i tre mindre trianglar). Poängen med programmet är inte att ni ska förstå koden i den här klassen, utan att få en visuell bild av hur rekursion fungerar. Ctrl+C för att slå på/av färg. |
+| **StackOverflow**              | Vad som händer när vi fortsätter lägga activation frames på callstacken utan något basfall.                                                                                                                                                                                                     |
+| **SubmapExample**              | Ett exempel på hur subMap fungerar i en TreeMap och varför vi bryr oss om tidskomplexiteten O(k).                                                                                                                                                                                               |
+| **ValueVsReference**           | Ett kort exempel som illustrerar skillnaden mellan att skicka variabler som värde och att skicka dem som referenser (detta sköts automatiskt i Java men det är bra att förstå vad som händer).                                                                                                  |
 
 
 # <a id="presentationer"></a>Föreläsningsslides
 
 Ni hittar dessa i mappen files:
 
-| Filer                                    | Beskrivning                                                                                                                                                                    |
-|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0: Introduktion**                      | Presentationen från kursintroduktionen den 19/1.                                                                                                                               |
-| **1: Tidskomplexitet**                   | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                                                       |
-| **2: Listor och arrayer**                | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                                                          |
-| **3: Rekursion, callstack och minne**    | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                                                         |
-| **4: Abstrakta datatyper och generics**  | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.                                      |
-| **5: Maps och sortering**                | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                |
-| **6: Comparator och garbage collection** | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.  |
+| Filer                                    | Beskrivning                                                                                                                                                                                          |
+|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**                      | Presentationen från kursintroduktionen den 19/1.                                                                                                                                                     |
+| **1: Tidskomplexitet**                   | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                                                                             |
+| **2: Listor och arrayer**                | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                                                                                |
+| **3: Rekursion, callstack och minne**    | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                                                                               |
+| **4: Abstrakta datatyper och generics**  | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.                                                            |
+| **5: Maps och sortering**                | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                                      |
+| **6: Comparator och garbage collection** | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.                        |
+| **7: Binära träd och grafer**            | Föreläsning från 9/2 där vi lärde oss om binära träd, grafstrukturer, hur stackar och köer kan användas för att besöka noder, och giriga algoritmer som alltid väljer det lokalt bästa alternativet. |
 
 
 
@@ -71,6 +73,8 @@ Ni hittar dessa i mappen files:
 # <a id="resurser"></a>Resurser
 
 ## <a id="links"></a>Länkar
+- **Bra sammanfattning av binära sökträd**: https://hackajob.com/talent/blog/implementing-binary-search-trees-in-java
+- **Om skillnaden (och likheterna) mellan träd och grafer**: https://www.jobaajlearnings.com/blog/binary-trees-vs-graphs-understanding-the-key-differences
 - **Comparable och Comparator - hur vi jämför objekt**: https://medium.com/@bolot.89/comparator-vs-comparable-in-java-understanding-the-key-differences-ee2c8f8f45d9 
 - **Grokking Algorithms (bra alternativ till kursboken)**: https://learning.oreilly.com/library/view/grokking-algorithms-second/9781633438538/
 - **En bra breakdown av TreeMap**: https://ioflood.com/blog/java-treemap/
@@ -82,6 +86,14 @@ Ni hittar dessa i mappen files:
 - **Uppslagsverk för svenska it-ord**: https://it-ord.computersweden.se/
 
 ## <a id="videor"></a>Videoklipp
+
+### Vecka 7:
+- **Data Structures: Trees** (10 min)<br>
+  [<img src="/assets/binary_search.png" alt="Binary Search Trees" width="500"/>](https://www.youtube.com/watch?v=oSWTXtMglKE)
+- **Dijkstras algoritm: Computerphile** (10 min)<br>
+  [<img src="https://img.youtube.com/vi/GazC3A4OQTE/hqdefault.jpg" alt="Dijkstra's Algorithm" width="500"/>](https://www.youtube.com/watch?v=GazC3A4OQTE)
+- **Bredden först-sökning i en graf** (4 min)<br>
+  [<img src="https://img.youtube.com/vi/HZ5YTanv5QE/hqdefault.jpg" alt="Dijkstra's Algorithm" width="500"/>](https://www.youtube.com/watch?v=HZ5YTanv5QE)
 
 ### Vecka 6: Maps och sortering
 - **Hur man implementerar Comparable i en egen klass** (5 min)<br>
