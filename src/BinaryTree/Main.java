@@ -21,8 +21,8 @@ public class Main
         tree.insert(75);
         tree.insert(85);
 
-        tree.inOrder();
-        tree.preOrder();
-        tree.postOrder();
+        tree.inOrder();     //Vänster->Rot->Höger (sorterad ordning)
+        tree.preOrder();    //Rot->Vänster->Höger
+        tree.postOrder();   //Vänster->Höger->Rot
     }
 }
