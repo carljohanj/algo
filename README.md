@@ -51,6 +51,7 @@ Ni hittar dessa i mappen files:
 | **5: Maps och sortering**                | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                                      |
 | **6: Comparator och garbage collection** | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.                        |
 | **7: Binära träd och grafer**            | Föreläsning från 9/2 där vi lärde oss om binära träd, grafstrukturer, hur stackar och köer kan användas för att besöka noder, och giriga algoritmer som alltid väljer det lokalt bästa alternativet. |
+| **8: Felhantering och best practices**   | Föreläsning från 12/2 där vi gick genom säker och bra programmering, enhanced for-loopar, iteratorer, undantagsfel och hur vi kan skriva egna exceptionklasser.                                      |
 
 
 
