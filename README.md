@@ -42,17 +42,18 @@ Ni hittar dessa i mappen src:
 
 Ni hittar dessa i mappen files:
 
-| Filer                                    | Beskrivning                                                                                                                                                                                          |
-|------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **0: Introduktion**                      | Presentationen från kursintroduktionen den 19/1.                                                                                                                                                     |
-| **1: Tidskomplexitet**                   | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                                                                             |
-| **2: Listor och arrayer**                | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                                                                                |
-| **3: Rekursion, callstack och minne**    | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                                                                               |
-| **4: Abstrakta datatyper och generics**  | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.                                                            |
-| **5: Maps och sortering**                | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                                      |
-| **6: Comparator och garbage collection** | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.                        |
-| **7: Binära träd och grafer**            | Föreläsning från 9/2 där vi lärde oss om binära träd, grafstrukturer, hur stackar och köer kan användas för att besöka noder, och giriga algoritmer som alltid väljer det lokalt bästa alternativet. |
-| **8: Felhantering och best practices**   | Föreläsning från 12/2 där vi gick genom säker och bra programmering, enhanced for-loopar, iteratorer, undantagsfel och hur vi kan skriva egna exceptionklasser.                                      |
+| Filer                                                     | Beskrivning                                                                                                                                                                                          |
+|-----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **0: Introduktion**                                       | Presentationen från kursintroduktionen den 19/1.                                                                                                                                                     |
+| **1: Tidskomplexitet**                                    | Föreläsning från 19/1 där vi pratade om tidskomplexitet, Big O-notation, och algoritmer.                                                                                                             |
+| **2: Listor och arrayer**                                 | Föreläsning från 22/1 där vi pratade om arrayer, ArrayList och LinkedList samt deras tidskomplexitet.                                                                                                |
+| **3: Rekursion, callstack och minne**                     | Föreläsning från 26/1 där vi gick genom rekursiva metoder, minneslagring, stack och heap, samt dynamisk programmering.                                                                               |
+| **4: Abstrakta datatyper och generics**                   | Föreläsning från 29/1 där vi gick genom abstrakta datatyper och generics. Vi byggde även små exempel på stackar, köer och länkade listor.                                                            |
+| **5: Maps och sortering**                                 | Föreläsning från 2/2 där vi kikade på Map-interfacet i Java och de två implementationerna HashMap och TreeMap, samt olika sorteringsalgoritmer.                                                      |
+| **6: Comparator och garbage collection**                  | Föreläsning från 5/2 där vi pratade om hur man kan sortera objekt med Comparator och Comparable. Vi tog även upp garbage collection och vad det har för implikationer i Java.                        |
+| **7: Binära träd och grafer**                             | Föreläsning från 9/2 där vi lärde oss om binära träd, grafstrukturer, hur stackar och köer kan användas för att besöka noder, och giriga algoritmer som alltid väljer det lokalt bästa alternativet. |
+| **8: Felhantering och best practices**                    | Föreläsning från 12/2 där vi gick genom säker och bra programmering, enhanced for-loopar, iteratorer, undantagsfel och hur vi kan skriva egna exceptionklasser.                                      |
+| **9: Algoritmdesigntekniker och datastrukturjämförelser** | Föreläsning från 16/2 där vi kikade på olika algoritmdesigntgekniker, repeterade lite grafer och träd, jämförde tidskomplexiteten för datastrukturer, och gick genom streams och lambdas lite kort.  |
 
 
 
