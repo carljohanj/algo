@@ -39,7 +39,7 @@ public class IterativeFibonacci
             //Varje fibonaccital är summan av de två föregående: Fib(n) = Fib(n-1) + Fib(n-2)
             sum = n2 + n1;
 
-            //Nu när vi röknat ut det aktuella fibonaccinumret och sparat det i sum måste vi ställa om
+            //Nu när vi räknat ut det aktuella fibonaccinumret och sparat det i sum måste vi ställa om
             //n1 och n2 så att de innehåller rätt värden för nästa loopvarv. Det här innebär att n1
             //får värdet av n2, och n2 får samma värde som sum just nu innehåller.
             n1 = n2;
