@@ -66,6 +66,7 @@ Ni hittar dessa i mappen files:
 | Filer                                 | Beskrivning                                                                                                           |
 |---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
 | **Fragor_och_svar_forelasning_3.pdf** | Lite övningsfrågor om rekursion, callstack och minne. Svar är inkluderade.                                            |
+| **Fragor_och_svar_forelasning_7.pdf** | Övningsfrågor om abstrakta datatyper, rekursiva structurer, binära träd och grafer. Svar är inkluderade.              |
 | **Lathund_Git.pdf**                   | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                  |
 | **Recursive_fibonacci_tree.pdf**      | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning. |
 
