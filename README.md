@@ -56,6 +56,8 @@ Ni hittar dessa i mappen files:
 | **7: Binära träd och grafer**                             | Föreläsning från 9/2 där vi lärde oss om binära träd, grafstrukturer, hur stackar och köer kan användas för att besöka noder, och giriga algoritmer som alltid väljer det lokalt bästa alternativet. |
 | **8: Felhantering och best practices**                    | Föreläsning från 12/2 där vi gick genom säker och bra programmering, enhanced for-loopar, iteratorer, undantagsfel och hur vi kan skriva egna exceptionklasser.                                      |
 | **9: Algoritmdesigntekniker och datastrukturjämförelser** | Föreläsning från 16/2 där vi kikade på olika algoritmdesigntgekniker, repeterade lite grafer och träd, jämförde tidskomplexiteten för datastrukturer, och gick genom streams och lambdas lite kort.  |
+| **10: Projektstart**                                      | Lite information och saker rörande projektet som kan vara bra att tänka på.                                                                                                                          |
+| **11: Test-Driven Development**                           | Föreläsning om vad TDD är, hur unit testing fungerar, och hur man kan utveckla kod inkrementellt genom att låta testning vara den drivande faktorn.                                                  |
 
 
 
@@ -69,6 +71,7 @@ Ni hittar dessa i mappen files:
 | **Fragor_och_svar_forelasning_7.pdf** | Övningsfrågor om abstrakta datatyper, rekursiva structurer, binära träd och grafer. Svar är inkluderade.              |
 | **Lathund_Git.pdf**                   | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                  |
 | **Recursive_fibonacci_tree.pdf**      | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning. |
+| **Romerska_Nummer_Kata.pdf**          | En övning i Test-Driven Development (tillhör föreläsning 11). Visar hur en algoritm tar form gradvis.                 |
 
 # <a id="verktyg"></a>IntelliJ-plugins
 - **PDF Viewer.** https://plugins.jetbrains.com/plugin/14494-pdf-viewer
