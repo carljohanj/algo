@@ -65,13 +65,14 @@ Ni hittar dessa i mappen files:
 
 Ni hittar dessa i mappen files:
 
-| Filer                                 | Beskrivning                                                                                                           |
-|---------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| **Fragor_och_svar_forelasning_3.pdf** | Lite övningsfrågor om rekursion, callstack och minne. Svar är inkluderade.                                            |
-| **Fragor_och_svar_forelasning_7.pdf** | Övningsfrågor om abstrakta datatyper, rekursiva structurer, binära träd och grafer. Svar är inkluderade.              |
-| **Lathund_Git.pdf**                   | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                  |
-| **Recursive_fibonacci_tree.pdf**      | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning. |
-| **Romerska_Nummer_Kata.pdf**          | En övning i Test-Driven Development (tillhör föreläsning 11). Visar hur en algoritm tar form gradvis.                 |
+| Filer                                 | Beskrivning                                                                                                                                                 |
+|---------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Fragor_och_svar_forelasning_3.pdf** | Lite övningsfrågor om rekursion, callstack och minne. Svar är inkluderade.                                                                                  |
+| **Fragor_och_svar_forelasning_7.pdf** | Övningsfrågor om abstrakta datatyper, rekursiva structurer, binära träd och grafer. Svar är inkluderade.                                                    |
+| **JUnit_Maven_Guide.pdf**             | En guide som visar steg för steg hur vi skapar ett projekt med Maven som byggsystem och lägger till ett JUnit-dependency så att vi kan skriva enhetstester. |
+| **Lathund_Git.pdf**                   | Lite instruktioner och allmänna tips för hur man använder Git och versionshantering.                                                                        |
+| **Recursive_fibonacci_tree.pdf**      | En detaljerad illustration av hur ett rekursivt fibonacciträd växer, hur det returnerar värden, och i vilken ordning.                                       |
+| **Romerska_Nummer_Kata.pdf**          | En övning i Test-Driven Development (tillhör föreläsning 11). Visar hur en algoritm tar form gradvis.                                                       |
 
 # <a id="verktyg"></a>IntelliJ-plugins
 - **PDF Viewer.** https://plugins.jetbrains.com/plugin/14494-pdf-viewer
