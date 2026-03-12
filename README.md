@@ -58,6 +58,7 @@ Ni hittar dessa i mappen files:
 | **9: Algoritmdesigntekniker och datastrukturjämförelser** | Föreläsning från 16/2 där vi kikade på olika algoritmdesigntgekniker, repeterade lite grafer och träd, jämförde tidskomplexiteten för datastrukturer, och gick genom streams och lambdas lite kort.  |
 | **10: Projektstart**                                      | Lite information och saker rörande projektet som kan vara bra att tänka på.                                                                                                                          |
 | **11: Test-Driven Development**                           | Föreläsning om vad TDD är, hur unit testing fungerar, och hur man kan utveckla kod inkrementellt genom att utgå från testklasser.                                                                    |
+| **12: Genomgång av ganmla tentor**                        | Kursrepetition samt genomgång av gamla tentor från tidigare kurstillfällen.                                                                                                                          |
 
 
 
